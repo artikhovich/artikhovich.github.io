@@ -1,0 +1,23 @@
+nav.navbar {
+    /* position: fixed; */
+    /* top: 0; */
+    background-color: white;
+    color: black;
+    display: flex;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    position: fixed;
+    display: block;
+    border-width: 0 0 1px;
+}
+.active{
+background-color: #800!important;
+color: #fff!important;
+}

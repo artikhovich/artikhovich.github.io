@@ -1,0 +1,28 @@
+.footer {
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    background-color: #7d7b7b;
+    color: #fff;
+    min-height: 100px;
+    width: 100%;
+}
+
+.site-footer {
+    padding-top: 94px;
+    padding-bottom: 40px;
+    color: hsla(0, 0%, 100%, .54);
+    background-color: #000;
+}
+
+@media screen and (max-width: 740px)
+.site-footer {
+    padding: 70px 0 20px;
+}
+
+@media (max-width: 46.24em)
+.site-footer {
+    padding: 70px 0 50px;
+}
+
