@@ -31,7 +31,7 @@ if(isNavActive){
 }
 		return(
 			<nav className={classNames}>
-				<h1>Navbar</h1>
+				<h1>Главная</h1>
 				<button type="button" onClick={this.navClick}>V</button>
 			</nav>
 			)

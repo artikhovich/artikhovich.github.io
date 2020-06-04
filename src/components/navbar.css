@@ -21,3 +21,14 @@ nav.navbar {
 background-color: #800!important;
 color: #fff!important;
 }
+
+.navbar button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: white;
+}
+
+.navbar button:focus {
+    outline:none;
+}
