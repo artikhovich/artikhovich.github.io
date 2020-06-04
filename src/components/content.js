@@ -1,12 +1,14 @@
 import './content.css';
 import React from 'react';
 import SectionOne from './sectionone';
+import Muzgram from './muzgram/muzgram';
 
 export default class Content extends React.Component{
 	render(){
 		return(
 			<div className="content">
-			<SectionOne/>
+				<SectionOne />
+				<Muzgram />
 			</div>)
 	}
 }
