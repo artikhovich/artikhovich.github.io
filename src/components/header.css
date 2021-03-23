@@ -4,3 +4,14 @@ header {
 	/*height: 100px;*/
 }
 
+nav.navbar{
+	display: flex;
+	flex-flow: wrap;
+}
+ul.navbar-list li {
+	list-style: none;
+
+}
+ul.navbar-list a:hover {
+	    color: #df9c20;
+}
