@@ -1,0 +1,10 @@
+header {
+	padding: 10px;
+	display: block;
+	height: 100px;
+	
+}
+
+ul.navbar-list li{
+	list-style: none;
+}

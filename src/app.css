@@ -3,8 +3,41 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .app {
-    padding: 10px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0px;
+    /*z-index: -1;*/
+    /*padding: 10px;*/
+    /*height:100vh;*/
+    /*flex-direction: column;*/
+    /*flex-grow: wrap;*/
+    /*margin-top: 30px;*/
+    /*margin-bottom: 30px;*/
+}
+
+.header,.footer {
+    background-color: #7d7b7b;
+    color:#ffffff;
+}
+.content {
     display: flex;
-    flex-direction: row;
-    flex-grow: wrap;
+    flex-flow: row wrap;
+    padding: 15px 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 105px; */
+}
+
+.footer {
+	height:80px;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    /*display: block;*/
+    color: #fff;
+    width: 100%;
 }
