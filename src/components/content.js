@@ -6,11 +6,14 @@ import MySkills from './skills/myskills.js';
 
 export default class Content extends React.Component{
 	render(){
+		const {skillsDB} = this.props;
 		return(
 			<div className="content">
 				<SectionOne />
 				<Muzgram />
-				<MySkills />
+				<MySkills 
+					db={skillsDB} 
+				/>
 			</div>)
 	}
 }

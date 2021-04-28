@@ -1,0 +1,14 @@
+.myskills {
+	padding: 5px;
+}
+.skill-section-item {
+	padding-top: 5px;
+	padding-bottom: 25px;
+}
+.skill-item-title{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.skill-item-dots{
+	font-style: italic;
+}
