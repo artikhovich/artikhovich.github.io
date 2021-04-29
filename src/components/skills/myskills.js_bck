@@ -1,0 +1,42 @@
+import React from 'react';
+
+const skills=[
+{title:'1. Введение в веб-разработку'},
+{title:'2. HTML и введение в CSS'},
+{title:'3. Оформление элементов'},
+{title:'4. Состояние и позиционирование элементов'},
+{title:'5. Углубление в HTML5 и CSS3'},
+{title:'6. Анимация элементов'},
+{title:'7. Формы'},
+{title:'8. Адаптивная и резиновая верстка'},
+{title:'9. Grid'},
+{title:'10. Bootstrap'},
+{title:'11. Эволюция CSS'},
+{title:'12. Проектирование'},
+{title:'13. Введение в FrontEnd. Git'},
+{title:'14. Введение в JavaScript'},
+{title:'15. Основы JavaScript'},
+{title:'16. Объекты и массивы.'},
+{title:'17. Объекты и массивы.'},
+{title:'18. Введение в функции'},
+{title:'19. Функции: LevelUP'},
+{title:'20. DOM'},
+{title:'21. События'},
+{title:'22. BOM'},
+{title:'23. Взаимодействие с сетью + Ajax'}
+];
+
+export default class MySkills extends React.Component{
+	constructor(props){
+		super(props);
+	}
+
+	render(){
+		const myskills=skills.forEach(function(item){console.log(item.title)}
+		);
+
+		const listItems = skills.map((d) => <h3 key={d.title}>{d.title}</h3>);
+
+		return(<div className="myskills">{listItems}</div>)
+	}
+}

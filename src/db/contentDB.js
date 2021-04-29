@@ -10,11 +10,11 @@ export const contentDB=[
 {id:5, title:"Углубление в HTML5 и CSS3",
 	dots:[{id:0,title:'Семантика'}, {id:1,title:'Аудио и видео'}, {id:2,title:'Новые стили в CSS3'}, {id:3,title:'Анимации'}],text:"",triger:""},
 {id:6, title:"Анимация элементов",
-	dots:[],text:"",triger:""},
+	dots:[{id:0,title:'Линейная анимация transition'}, {id:1,title:'Цикличная анимация keyframes'}],text:"",triger:""},
 {id:7, title:"Формы",
-	dots:[],text:"",triger:""},
+	dots:[{id:0,title:'Работа с формами'}, {id:1,title:'Работа с полями ввода'}],text:"",triger:""},
 {id:8, title:"Адаптивная и резиновая верстка",
-	dots:[],text:"",triger:""},
+	dots:[{id:0,title:'Сетка сайта'}, {id:1,title:'Adaptive, responsive'}, {id:2,title:'Мобильная верстка'}],text:"",triger:""},
 {id:9, title:"Grid",
 	dots:[],text:"",triger:""},
 {id:10, title:"Bootstrap",
@@ -32,7 +32,7 @@ export const contentDB=[
 {id:20, title:"DOM",dots:[],text:"",triger:""},
 {id:21, title:"Cобытия",dots:[],text:"",triger:""},
 {id:22, title:"BOM",dots:[],text:"",triger:""},
-{id:23, title:"Взаимодействие с сетью + Ajax",dots:[],text:"",triger:""},
+{id:23, title:"Взаимодействие с сетью + Ajax",dots:[],text:"",triger:""}
 ];
 
 

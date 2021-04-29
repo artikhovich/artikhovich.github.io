@@ -1,7 +1,8 @@
-header {
+.header {
 	/*padding: 10px;*/
 	/*display: block;*/
 	/*height: 100px;*/
+	background-color: rgba(25,25,25,1);color: #ffffff;
 }
 
 nav.navbar{
@@ -15,3 +16,11 @@ ul.navbar-list li {
 ul.navbar-list a:hover {
 	    color: #df9c20;
 }
+
+.social-link svg {
+	height: 30px;
+	width: 30px;
+	color: #ffffff;
+/*background-color: #ffffff;*/
+}
+
