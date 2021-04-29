@@ -10,13 +10,19 @@ import Content from './components/content';
 
 class App extends React.Component {
 	render(){
+		let dateNow = new Date();
+		let monthNow = dateNow.toLocaleString('default', {month: 'long'});
+		let yearNow = dateNow.getFullYear();
 		return(
 			<div className="app">
 				<Header />
 				<Content 
 					skillsDB={contentDB} 
 				/>
-				<Footer />
+				<Footer 
+				month = {monthNow}
+				year={yearNow}
+				/>
 			</div>
 			)
 	}
