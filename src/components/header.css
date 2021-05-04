@@ -1,7 +1,7 @@
 .header {
 	/*padding: 10px;*/
-	/*display: block;*/
-	/*height: 100px;*/
+	display: flex;
+    flex-wrap: wrap;
 	background-color: rgba(25,25,25,1);color: #ffffff;
 }
 
@@ -17,10 +17,23 @@ ul.navbar-list a:hover {
 	    color: #df9c20;
 }
 
+ul.social-panel {
+    display: flex;
+    flex-flow: row;
+    text-align: right;
+    align-content: flex-end;
+    align-items: self-end;
+}
+
 .social-link svg {
 	height: 30px;
 	width: 30px;
 	color: #ffffff;
 /*background-color: #ffffff;*/
+}
+
+.social-panel li.social-link{
+	padding: 0px 5px;
+	list-style: none;
 }
 
