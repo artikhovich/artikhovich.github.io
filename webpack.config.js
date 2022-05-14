@@ -10,32 +10,32 @@ module.exports = {
 		filename:'build.js',
 	},
 	module:{
-		rules:[
+		rules: [
 		{
 			test: /\.js$/,
 			exclude: /node_modules/,
-			loader:"babel-loader"
+			use:["babel-loader"]
 		},
 		{
 			test: /\.css$/,
-			loader:['style-loader','css-loader']
+			use:['style-loader','css-loader']
 		},
-		{
-		test: /\.(gif|png|jpe?g|svg)$/i,
-		use: [
-		'file-loader',
-			{
-				loader: 'image-webpack-loader',
-				options: {
-					bypassOnDebug: true, // webpack@1.x
-					disable: true, // webpack@2.x and newer
-					},
-			},
-			]
-		},
+		// {
+		// test: /\.(gif|png|jpe?g|svg)$/i,
+		// use: [
+		// 'file-loader',
+		// 	{
+		// 		loader: 'image-webpack-loader',
+		// 		options: {
+		// 			bypassOnDebug: true, // webpack@1.x
+		// 			disable: true, // webpack@2.x and newer
+		// 			},
+		// 	},
+		// 	]
+		// },
 		{
 			test: /\.html$/,
-			loader: "html-loader"
+			use: ["html-loader"],
 		},
 		]
 	},
